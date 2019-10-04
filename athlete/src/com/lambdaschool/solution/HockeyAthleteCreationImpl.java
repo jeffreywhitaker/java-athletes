@@ -1,12 +1,12 @@
 package src.com.lambdaschool.solution;
 
-public class TrackAthleteCreationImpl implements AthleteCreation
+public class HockeyAthleteCreationImpl implements AthleteCreation
 {
     @Override
     public void displayAthlete()
     {
         System.out.println("************");
-        System.out.println("Track Runner");
+        System.out.println("Hockey Goalie");
         System.out.println("************");
     }
 }

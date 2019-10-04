@@ -1,6 +1,6 @@
 package src.com.lambdaschool.solution;
 
-public interface TrackAthleteCreator
+public interface AthleteCreation
 {
     void displayAthlete();
 }

@@ -5,7 +5,7 @@ public class MyApplication implements Processor
 
     private AthleteCreation ac;
 
-    public MyApplication(AthleteCreation ac, CourtCreation cc)
+    public MyApplication(AthleteCreation ac)
     {
         this.ac = ac;
 
@@ -13,8 +13,8 @@ public class MyApplication implements Processor
     @Override
     public void displayAthlete()
     {
-        System.out.println("************");
+        System.out.println();
         ac.displayAthlete();
-        System.out.println("************\n");
+        System.out.println();
     }
 }
